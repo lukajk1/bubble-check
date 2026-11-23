@@ -28,9 +28,13 @@ reload resumes where you left off. **Reset quiz** clears it.
   `"reserve": true` to a question to keep it on the bench (used to hold the quiz near 10
   minutes), or `"drop": true` if it failed fact-checking.
 
-Scoring: each question is worth one point. A ranking gets partial credit for every pair in the
-right order. A range is right or wrong. A percentage gets full credit within 3 points, falling to
-zero at 25 points off.
+Scoring: each question is worth one point, and every type gives more credit the closer you get,
+with zero only for the worst possible answer.
+
+- **Ranking:** the share of item pairs in the right order (a fully reversed list scores 0).
+- **Range:** one range off keeps a share of the point, the farthest range scores 0.
+- **Percentage:** full credit within 3 points, then falling off steeply at first (about 0.6 at
+  10 points off, 0.3 at 20) and reaching 0 only at the farthest possible guess.
 
 ## Hosting
 

@@ -88,18 +88,30 @@
   };
 
   // ---------- scoring (each question worth 1 point) ----------
+  // Every type gives more credit the closer the answer is, and 0 only for the worst possible
+  // answer. `decay` maps a miss d (0 = right) on a scale whose worst miss is m to 1..0, steeply
+  // at first so near misses keep most of their credit relative to wild ones.
+  const decay = (d, m, base) => d <= 0 ? 1 : m <= 0 ? 0 : (Math.pow(base, d) - Math.pow(base, m)) / (1 - Math.pow(base, m));
+
   function score(q, a) {
     if (a == null) return { pts: 0, note: "No answer" };
-    if (q.type === "bins") return { pts: a === q.answerBin ? 1 : 0 };
+    if (q.type === "bins") {
+      // Ranges away from the right one: one off keeps a share, the farthest possible gets 0.
+      const d = Math.abs(a - q.answerBin), m = Math.max(q.answerBin, q.bins.length - 1 - q.answerBin);
+      return { pts: decay(d, m, 0.5), note: d === 0 ? "" : d === 1 ? "One range off" : `${d} ranges off` };
+    }
     if (q.type === "rank") {
+      // Share of item pairs in the right order: a fully reversed list scores 0.
       const ok = pairsRight(q, a), n = (a.length * (a.length - 1)) / 2;
       const exact = a.join() === trueOrder(q).join();
       return { pts: exact ? 1 : ok / n, note: exact ? "Perfect order" : `${ok} of ${n} pairs in the right order` };
     }
-    // percent / number: full credit within 3% of the range, nothing beyond 25%.
+    // percent / number: full credit within 3% of the scale, then falling off with distance,
+    // reaching 0 only at the farthest possible guess (e.g. 100% when the answer is 4%).
     const { min, max } = numRange(q);
-    const span = max - min, err = Math.abs(a - q.answer);
-    const pts = Math.max(0, Math.min(1, 1 - (err - 0.03 * span) / (0.22 * span)));
+    const span = max - min, err = Math.abs(a - q.answer), grace = 0.03 * span;
+    const worst = Math.max(q.answer - min, max - q.answer) - grace;
+    const pts = decay((err - grace) / span, worst / span, Math.exp(-1 / 0.15));
     const off = q.unit === "%" ? `${+err.toFixed(1)} percentage point${err === 1 ? "" : "s"}` : fmt(q, err);
     return { pts, err, note: err === 0 ? "Exactly right" : `Off by ${off}` };
   }
@@ -406,7 +418,7 @@
       <div class="rv-head"><span class="chip">${k + 1}. ${esc(q.category)}</span><span class="pts ${cls}">${Math.round(p * 100)}%</span></div>
       <p class="rv-q">${esc(q.prompt)}</p>
       ${body}
-      ${s.note && q.type !== "bins" ? `<p class="small muted" style="margin:6px 0 0">${esc(s.note)}</p>` : ""}
+      ${s.note ? `<p class="small muted" style="margin:6px 0 0">${esc(s.note)}</p>` : ""}
       <p class="explain">${esc(q.explanation)}</p>
       <p class="cite">Source${srcs.length > 1 ? "s" : ""}: ${srcs.map((src, j) => `<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(srcs.length > 1 && srcs.every(x => x.publisher === src.publisher) ? src.title : src.publisher)}${src.published && srcs.length === 1 ? `, ${esc(src.published)}` : ""}</a> <sup class="ref">[${refs[j]}]</sup>`).join("; ")}</p>
       ${q.caveat ? `<p class="caveat">${esc(q.caveat)}</p>` : ""}
