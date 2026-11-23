@@ -1,0 +1,201 @@
+[
+  {
+    "id": "musk-favorable",
+    "category": "Politics & Beliefs",
+    "type": "percent",
+    "prompt": "In October 2026, what percent of U.S. registered voters had a favorable opinion of Elon Musk?",
+    "answer": 39,
+    "unit": "%",
+    "explanation": "39% of registered voters had a very or somewhat favorable opinion of Musk in the October 10–12, 2026 Economist/YouGov poll, more than for Mark Zuckerberg (25%). Opinion is almost entirely partisan: Civiqs' tracker of registered voters (Nov 18, 2026) had him at 37% favorable and 55% unfavorable, with 81% of Republicans and 3% of Democrats favorable.",
+    "source": {
+      "publisher": "YouGov (The Economist/YouGov Poll)",
+      "title": "Steady midterms picture, economic doubts, death penalty, and more: October 10–12, 2026 Economist/YouGov Poll",
+      "url": "https://yougov.com/en-us/articles/55753-steady-midterms-picture-economic-doubts-death-penalty-more-october-10-12-2026-economist-yougov-poll",
+      "published": "2026-10",
+      "fieldwork": "Oct 10–12, 2026"
+    },
+    "extraSources": [
+      {
+        "publisher": "Civiqs",
+        "title": "Elon Musk favorability tracking poll",
+        "url": "https://civiqs.com/results/favorable_elon_musk",
+        "published": "2026-11"
+      }
+    ],
+    "confidence": "medium",
+    "caveat": "Favorability, not job approval. Both polls report this among registered voters (YouGov includes adult citizens who plan to register before Election Day), not all adults; the margin of error is about ±3.5 points."
+  },
+  {
+    "id": "democrats-eating-meat-moral",
+    "category": "Politics & Beliefs",
+    "type": "bins",
+    "prompt": "In 2025, what share of Democrats (including independents who lean Democratic) said eating meat is either morally acceptable or not a moral issue at all?",
+    "bins": [
+      "Under 50%",
+      "50–74%",
+      "75–89%",
+      "90% or more"
+    ],
+    "answerBin": 3,
+    "answer": 94,
+    "unit": "%",
+    "explanation": "94% of Democrats and Democratic leaners say eating meat is morally acceptable (38%) or not a moral issue (56%); only 6% call it morally wrong. Republicans are at 98%. Of 15 behaviors Pew asked about, eating meat was the one fewest Americans called immoral (4%).",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "What Do Americans Consider Immoral? (Appendix: Detailed tables)",
+      "url": "https://www.pewresearch.org/religion/2026/03/19/appendix-detailed-tables-us-morality/",
+      "published": "2026-03",
+      "fieldwork": "May 5–11, 2025"
+    },
+    "confidence": "high",
+    "caveat": "Party figures include leaners; Pew did not publish a liberal/conservative split for this item."
+  },
+  {
+    "id": "institution-confidence-rank",
+    "category": "Politics & Beliefs",
+    "type": "rank",
+    "prompt": "In 2026, rank these institutions by the share of U.S. adults who have 'a great deal' or 'quite a lot' of confidence in them.",
+    "rankLabel": "Most confidence → least confidence",
+    "items": [
+      {
+        "label": "Small business",
+        "value": 67,
+        "display": "67% great deal / quite a lot"
+      },
+      {
+        "label": "The military",
+        "value": 61,
+        "display": "61% great deal / quite a lot"
+      },
+      {
+        "label": "Higher education",
+        "value": 38,
+        "display": "38% great deal / quite a lot"
+      },
+      {
+        "label": "Television news",
+        "value": 14,
+        "display": "14% great deal / quite a lot"
+      }
+    ],
+    "unit": "%",
+    "explanation": "Small business (67%) has topped the military (61%) every year since 2022. Congress is last of 17 institutions at 9%. Party gaps are large: 88% of Republicans vs. 42% of Democrats are confident in the military, and 50% of Democrats vs. 23% of Republicans in higher education.",
+    "source": {
+      "publisher": "Gallup",
+      "title": "Gallup News Service, June Wave 1 final topline: Confidence in Institutions",
+      "url": "https://news.gallup.com/file/poll/712667/2026_06_01%20Topline_Confidence.pdf",
+      "published": "2026-07",
+      "fieldwork": "Jun 1–15, 2026"
+    },
+    "confidence": "high",
+    "caveat": "Telephone poll of 1,001 adults, margin of error ±4 points."
+  },
+  {
+    "id": "democrats-extremely-rich-immoral",
+    "category": "Politics & Beliefs",
+    "type": "percent",
+    "prompt": "In 2025, what percent of Democrats (including independents who lean Democratic) said that being extremely rich, for example having billions of dollars, is morally wrong?",
+    "answer": 29,
+    "unit": "%",
+    "explanation": "29% of Democrats and leaners call it morally wrong; 58% say it is not a moral issue and 13% say it is morally acceptable. Among Republicans and leaners, 7% say it is wrong. Overall, 18% of U.S. adults do.",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "What Do Americans Consider Immoral? (Appendix: Detailed tables)",
+      "url": "https://www.pewresearch.org/religion/2026/03/19/appendix-detailed-tables-us-morality/",
+      "published": "2026-03",
+      "fieldwork": "May 5–11, 2025"
+    },
+    "confidence": "high",
+    "caveat": "Party figures include leaners. Fieldwork was May 2025; results were published March 2026."
+  },
+  {
+    "id": "believe-in-god",
+    "category": "Politics & Beliefs",
+    "type": "bins",
+    "prompt": "In Pew's 2023–24 survey, what share of U.S. adults said they believe in God or a universal spirit?",
+    "bins": [
+      "Under 50%",
+      "50–64%",
+      "65–79%",
+      "80% or more"
+    ],
+    "answerBin": 3,
+    "answer": 83,
+    "unit": "%",
+    "explanation": "83% believe in God or a universal spirit, though only 54% say they are absolutely certain. 70% believe in an afterlife, and 52% believe in both heaven and hell. Yet 49% seldom or never attend religious services.",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "If the U.S. had 100 people: Charting Americans' religious beliefs and practices",
+      "url": "https://www.pewresearch.org/short-reads/2026/01/29/if-the-us-had-100-people-charting-americans-religious-beliefs-and-practices/",
+      "published": "2026-01",
+      "fieldwork": "Jul 2023 – Mar 2024"
+    },
+    "confidence": "high",
+    "caveat": "From the 2023–24 Religious Landscape Study (36,908 adults). The wording includes 'or a universal spirit', which gives a higher figure than questions about God alone."
+  },
+  {
+    "id": "most-important-problem-rank",
+    "category": "Politics & Beliefs",
+    "type": "rank",
+    "prompt": "Gallup asks Americans, with no list of options, to name the most important problem facing the country. Rank these answers by how often they were given in September 2026.",
+    "rankLabel": "Named most often → named least often",
+    "items": [
+      {
+        "label": "The government / poor leadership",
+        "value": 30,
+        "display": "30% named it"
+      },
+      {
+        "label": "High cost of living / inflation",
+        "value": 13,
+        "display": "13% named it"
+      },
+      {
+        "label": "War in the Middle East",
+        "value": 7,
+        "display": "7% named it"
+      },
+      {
+        "label": "Crime / violence",
+        "value": 1,
+        "display": "1% named it"
+      }
+    ],
+    "unit": "%",
+    "explanation": "Government and poor leadership (30%) was named more than twice as often as the cost of living (13%). Immigration drew 10%, healthcare 3%, and crime, climate, abortion and guns 1% or less each. All economic answers combined came to 31%.",
+    "source": {
+      "publisher": "Gallup",
+      "title": "Gallup Poll Social Series: Governance, final topline (Most Important Problem)",
+      "url": "https://news.gallup.com/file/poll/715526/2026_10_13_Party-DSA-MAGA%20Topline%20and%20Tabs.pdf",
+      "published": "2026-10",
+      "fieldwork": "Sep 1–17, 2026"
+    },
+    "confidence": "high",
+    "caveat": "Open-ended question; people can name more than one problem (answers total 133%). It measures what comes to mind first, not everything people care about."
+  },
+  {
+    "id": "republicans-ban-official-stock-trading",
+    "category": "Politics & Beliefs",
+    "type": "bins",
+    "prompt": "In November 2026, what share of Republicans said federal government officials should be banned from trading stocks?",
+    "bins": [
+      "Under 25%",
+      "25–49%",
+      "50–74%",
+      "75% or more"
+    ],
+    "answerBin": 2,
+    "answer": 66,
+    "unit": "%",
+    "explanation": "66% of Republicans favor a ban, close to Democrats (73%) and independents (62%); 67% of all adults do. It is one of the few current issues with near-equal support in both parties. For contrast, in the same poll stricter gun laws drew 89% of Democrats and 27% of Republicans.",
+    "source": {
+      "publisher": "YouGov (The Economist/YouGov Poll)",
+      "title": "Whether Congress should investigate the Trump administration, Jensen Huang, and more: November 13–16, 2026 Economist/YouGov Poll",
+      "url": "https://yougov.com/en-us/articles/56009-whether-congress-should-investigate-trump-administration-jensen-huang-november-13-16-2026-economist-yougov-poll",
+      "published": "2026-11",
+      "fieldwork": "Nov 13–16, 2026"
+    },
+    "confidence": "medium",
+    "caveat": "1,628 U.S. adult citizens, margin of error about ±2.9 points."
+  }
+]

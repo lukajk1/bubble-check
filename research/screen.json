@@ -1,0 +1,220 @@
+[
+  {
+    "id": "game-fame-rank",
+    "category": "Games, Screen & Sports",
+    "type": "rank",
+    "prompt": "As of 2026, rank these video games by how many U.S. adults have heard of them.",
+    "rankLabel": "Best known → least known",
+    "items": [
+      {
+        "label": "Grand Theft Auto",
+        "value": 90,
+        "display": "90% have heard of"
+      },
+      {
+        "label": "Fortnite",
+        "value": 84,
+        "display": "84% have heard of"
+      },
+      {
+        "label": "Sonic the Hedgehog",
+        "value": 81,
+        "display": "81% have heard of"
+      },
+      {
+        "label": "Halo",
+        "value": 76,
+        "display": "76% have heard of"
+      }
+    ],
+    "unit": "%",
+    "explanation": "Grand Theft Auto is known to 90% of U.S. adults, level with Super Mario Bros., Minecraft and Angry Birds. Fortnite is at 84%, Sonic the Hedgehog 81% and Halo 76%. The best-known game of all is Candy Crush Saga at 91%.",
+    "source": {
+      "publisher": "YouGov",
+      "title": "The most famous video games in America (YouGov Ratings)",
+      "url": "https://yougov.com/en-us/ratings/video-games?sortBy=fame",
+      "published": "2026-10",
+      "fieldwork": "Q3 2026"
+    },
+    "confidence": "high",
+    "caveat": "Fame is the share of U.S. adults who say they have heard of the title. Super Mario Bros., Minecraft and Angry Birds were left out of this ranking because they tie GTA exactly."
+  },
+  {
+    "id": "weekly-gamers-share",
+    "category": "Games, Screen & Sports",
+    "type": "percent",
+    "prompt": "In 2026, what percentage of Americans (ages 5 to 90) played video games for at least an hour a week?",
+    "answer": 67,
+    "unit": "%",
+    "explanation": "67% of Americans aged 5 to 90, about 212 million people, play at least an hour a week. The average player is 37, and half of Boomers (50%) play weekly.",
+    "source": {
+      "publisher": "Entertainment Software Association",
+      "title": "Two-Thirds of Americans Play Video Games Every Week (2026 Essential Facts)",
+      "url": "https://www.theesa.com/two-thirds-of-americans-play-video-games-every-week-according-tonew-report-from-the-entertainment-software-association/",
+      "published": "2026-06",
+      "fieldwork": "Feb 11–25, 2026"
+    },
+    "confidence": "high",
+    "caveat": "Industry trade-group survey (run with YouGov, 13,545 respondents). It includes children from age 5 and counts mobile games.",
+    "reserve": true
+  },
+  {
+    "id": "box-office-2025-rank",
+    "category": "Games, Screen & Sports",
+    "type": "rank",
+    "prompt": "Rank these 2025 films by how much they earned at the U.S. and Canadian box office.",
+    "rankLabel": "Highest gross → lowest gross",
+    "items": [
+      {
+        "label": "A Minecraft Movie",
+        "value": 424.1,
+        "display": "$424 million"
+      },
+      {
+        "label": "Superman",
+        "value": 354.2,
+        "display": "$354 million"
+      },
+      {
+        "label": "Sinners",
+        "value": 280.0,
+        "display": "$280 million"
+      },
+      {
+        "label": "Mission: Impossible – The Final Reckoning",
+        "value": 197.4,
+        "display": "$197 million"
+      }
+    ],
+    "unit": "$M",
+    "explanation": "A Minecraft Movie took $424 million domestically, ahead of Superman ($354M), Sinners ($280M) and Mission: Impossible – The Final Reckoning ($197M).",
+    "source": {
+      "publisher": "Box Office Mojo",
+      "title": "Domestic Box Office For 2025",
+      "url": "https://www.boxofficemojo.com/year/2025/",
+      "published": "2026",
+      "fieldwork": "2025 releases, total domestic gross"
+    },
+    "confidence": "high",
+    "caveat": "Domestic means U.S. and Canada. Figures are total lifetime grosses, not adjusted for inflation.",
+    "reserve": true
+  },
+  {
+    "id": "streaming-share-rank",
+    "category": "Games, Screen & Sports",
+    "type": "rank",
+    "prompt": "In August 2026, rank these services by their share of all the time Americans spent watching on a TV screen.",
+    "rankLabel": "Largest share of TV time → smallest",
+    "items": [
+      {
+        "label": "YouTube",
+        "value": 15.8,
+        "display": "15.8% of TV time"
+      },
+      {
+        "label": "Netflix",
+        "value": 7.7,
+        "display": "7.7% of TV time"
+      },
+      {
+        "label": "Prime Video",
+        "value": 4.2,
+        "display": "4.2% of TV time"
+      },
+      {
+        "label": "Peacock",
+        "value": 1.6,
+        "display": "1.6% of TV time"
+      }
+    ],
+    "unit": "%",
+    "explanation": "In August 2026 YouTube took a record 15.8% of all U.S. TV viewing, about twice Netflix's 7.7%. Prime Video had 4.2% and Peacock 1.6%. Streaming as a whole was 49.6%, with cable at 18.9% and broadcast at 17.5%.",
+    "source": {
+      "publisher": "Nielsen",
+      "title": "TV Viewing Cools Off in Nielsen's August Gauge Reports as Sports Take a Breather and School Resumes",
+      "url": "https://www.nielsen.com/news-center/2026/tv-viewing-cools-off-in-nielsens-august-gauge-reports-as-sports-take-a-breather-and-school-resumes/",
+      "published": "2026-10",
+      "fieldwork": "August 2026"
+    },
+    "extraSources": [
+      {
+        "publisher": "TheWrap",
+        "title": "YouTube TV Viewing Hits Record 15.8% in August as Streaming Usage Declines",
+        "url": "https://www.thewrap.com/media-platforms/tv/youtube-netflix-disney-tv-viewership-nielsen-gauge-august-2026/",
+        "published": "2026-10",
+        "fieldwork": "August 2026"
+      }
+    ],
+    "confidence": "medium",
+    "caveat": "Counts viewing on TV sets only, not phones or laptops. YouTube excludes the YouTube TV live bundle. Prime Video's figure is from TheWrap's report of the Nielsen data; Nielsen's own article does not list it. August is the latest month published (Oct. 22, 2026)."
+  },
+  {
+    "id": "moviegoing-past-year",
+    "category": "Games, Screen & Sports",
+    "type": "percent",
+    "prompt": "In mid-2025, what percentage of U.S. adults said they had gone to a movie theater in the past year?",
+    "answer": 53,
+    "unit": "%",
+    "explanation": "53% of U.S. adults had been to a movie theater in the past year. It was 67% among those aged 18 to 29 and 39% among those 65 and older.",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "As the Academy Awards approach, a look at moviegoing habits in the United States",
+      "url": "https://www.pewresearch.org/short-reads/2026/03/06/as-the-academy-awards-approach-a-look-at-moviegoing-habits-in-the-united-states/",
+      "published": "2026-03",
+      "fieldwork": "Jul 8–Aug 3, 2025"
+    },
+    "confidence": "medium",
+    "caveat": "Polls differ on this: an AP-NORC poll in August 2025 found about two-thirds had watched a recently released movie in a theater in the past year."
+  },
+  {
+    "id": "football-favorite-sport",
+    "category": "Games, Screen & Sports",
+    "type": "bins",
+    "prompt": "In 2026, what share of U.S. adults named football as their favorite sport to watch?",
+    "bins": [
+      "Under 20%",
+      "20–39%",
+      "40–59%",
+      "60% or more"
+    ],
+    "answerBin": 1,
+    "answer": 31,
+    "unit": "%",
+    "explanation": "31% name football, its lowest since 2001 but still far ahead of basketball (11%), baseball (10%) and soccer (9%, a record high). 20% say they have no favorite sport.",
+    "source": {
+      "publisher": "Gallup",
+      "title": "Football Still Top U.S. Sport, Soccer Inching Up",
+      "url": "https://news.gallup.com/poll/714281/football-top-sport-soccer-inching.aspx",
+      "published": "2026-09",
+      "fieldwork": "Aug 3–24, 2026"
+    },
+    "confidence": "high",
+    "caveat": "Open-ended question, each person names one sport. 1,200 adults, margin of error ±4 points."
+  },
+  {
+    "id": "super-bowl-lx-audience",
+    "category": "Games, Screen & Sports",
+    "type": "bins",
+    "prompt": "About how many people in the U.S. watched the 2026 Super Bowl, on average, during the game?",
+    "bins": [
+      "Under 60 million",
+      "60–99 million",
+      "100–149 million",
+      "150 million or more"
+    ],
+    "answerBin": 2,
+    "answer": 125.6,
+    "unit": "million",
+    "explanation": "Super Bowl LX (Seahawks–Patriots, Feb. 8, 2026) averaged 125.6 million viewers, a bit over a third of the country. It is the second most-watched ever, behind 127.7 million in 2025.",
+    "source": {
+      "publisher": "Nielsen",
+      "title": "Super Bowl LX",
+      "url": "https://www.nielsen.com/news-center/2026/super-bowl-lx-2026/",
+      "published": "2026-02",
+      "fieldwork": "Feb 8, 2026"
+    },
+    "confidence": "high",
+    "caveat": "Average audience per minute across NBC, Peacock, Telemundo and digital, including out-of-home viewing. The peak was 137.8 million.",
+    "reserve": true
+  }
+]

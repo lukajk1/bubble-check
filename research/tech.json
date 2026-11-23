@@ -1,0 +1,220 @@
+[
+  {
+    "id": "social-platforms-adult-use-rank",
+    "category": "Tech & Internet",
+    "type": "rank",
+    "prompt": "In 2026, rank these platforms by the share of U.S. adults who say they use them.",
+    "rankLabel": "Most used → least used",
+    "items": [
+      {
+        "label": "YouTube",
+        "value": 84,
+        "display": "84% of adults use it"
+      },
+      {
+        "label": "Instagram",
+        "value": 51,
+        "display": "51% of adults use it"
+      },
+      {
+        "label": "Snapchat",
+        "value": 26,
+        "display": "26% of adults use it"
+      },
+      {
+        "label": "X (Twitter)",
+        "value": 18,
+        "display": "18% of adults use it"
+      }
+    ],
+    "unit": "%",
+    "explanation": "YouTube reaches 84% of U.S. adults and Instagram 51%. Snapchat (26%) is now ahead of X, which slipped from 21% in 2025 to 18% in 2026.",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "Americans' Use of Social Media in 2026 (Social Media Fact Sheet)",
+      "url": "https://www.pewresearch.org/internet/fact-sheet/social-media/",
+      "published": "2026-10",
+      "fieldwork": "Jan 30 – Jun 18, 2026"
+    },
+    "confidence": "high",
+    "caveat": "Measures the share of adults who say they ever use each platform, not daily active users: no single source publishes comparable U.S. daily users for all four (YouTube does not report them)."
+  },
+  {
+    "id": "ai-chatbots-adult-use-rank",
+    "category": "Tech & Internet",
+    "type": "rank",
+    "prompt": "In early 2026, rank these AI chatbots by the share of U.S. adults who say they use them.",
+    "rankLabel": "Most used → least used",
+    "items": [
+      {
+        "label": "ChatGPT",
+        "value": 44,
+        "display": "44% of adults use it"
+      },
+      {
+        "label": "Gemini (Google)",
+        "value": 24,
+        "display": "24% of adults use it"
+      },
+      {
+        "label": "Meta AI",
+        "value": 14,
+        "display": "14% of adults use it"
+      },
+      {
+        "label": "Claude",
+        "value": 6,
+        "display": "6% of adults use it"
+      }
+    ],
+    "unit": "%",
+    "explanation": "ChatGPT (44%) is used by nearly twice as many U.S. adults as Gemini (24%). Meta AI is at 14% and Claude at 6%; Copilot (17%) and Grok (8%) fall in between. About half of adults (51%) use no AI chatbot at all.",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "Americans and AI 2026: Chatbots, Smart Devices and Views on Impact",
+      "url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+      "published": "2026-06",
+      "fieldwork": "Feb 17–23, 2026"
+    },
+    "extraSources": [
+      {
+        "publisher": "Pew Research Center",
+        "title": "Americans report using ChatGPT far more than other chatbots (chart)",
+        "url": "https://www.pewresearch.org/chart/americans-report-using-chatgpt-far-more-than-other-chatbots/",
+        "published": "2026-06"
+      }
+    ],
+    "confidence": "high",
+    "caveat": "Self-reported 'ever use'; people may use Gemini or Meta AI inside other products without counting it."
+  },
+  {
+    "id": "ai-more-concerned-than-excited",
+    "category": "Tech & Internet",
+    "type": "percent",
+    "prompt": "In 2026, what percent of U.S. adults said the increased use of AI in daily life makes them feel more concerned than excited?",
+    "answer": 52,
+    "unit": "%",
+    "explanation": "About half of U.S. adults (52%) are more concerned than excited, up from 50% in 2025 and 37% in 2021. Only 9% are more excited than concerned, and 37% feel equally concerned and excited.",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "Democrats are now more worried than Republicans about AI and its impact on jobs",
+      "url": "https://www.pewresearch.org/short-reads/2026/09/16/democrats-are-now-more-worried-than-republicans-about-ai-and-its-impact-on-jobs/",
+      "published": "2026-09",
+      "fieldwork": "Jun 22–28, 2026"
+    },
+    "extraSources": [
+      {
+        "publisher": "Pew Research Center",
+        "title": "How Americans View AI and Its Impact on Human Abilities, Society",
+        "url": "https://www.pewresearch.org/science/2025/09/17/how-americans-view-ai-and-its-impact-on-people-and-society/",
+        "published": "2025-09",
+        "fieldwork": "Jun 9–15, 2025"
+      }
+    ],
+    "confidence": "high",
+    "caveat": "Survey of 3,488 U.S. adults on Pew's American Trends Panel; the 2025 reading (50%) is from June 9–15, 2025."
+  },
+  {
+    "id": "online-almost-constantly",
+    "category": "Tech & Internet",
+    "type": "percent",
+    "prompt": "In 2026, what percent of U.S. adults said they are online \"almost constantly\"?",
+    "answer": 44,
+    "unit": "%",
+    "explanation": "44% of U.S. adults say they are online almost constantly, up from 41% in 2025. Another 41% go online several times a day; only about 5% go online less often than several times a week or not at all.",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "Frequency of internet use (chart, NPORS 2026)",
+      "url": "https://www.pewresearch.org/chart/frequency-of-internet-use/",
+      "published": "2026-07",
+      "fieldwork": "Jan 30 – Jun 18, 2026"
+    },
+    "confidence": "high",
+    "caveat": "Self-reported.",
+    "extraSources": [
+      {
+        "publisher": "Pew Research Center",
+        "title": "Internet use, smartphone ownership and digital divides in the U.S.",
+        "url": "https://www.pewresearch.org/short-reads/2026/01/08/internet-use-smartphone-ownership-digital-divides-in-u-s/",
+        "published": "2026-01",
+        "fieldwork": "Feb 5 – Jun 18, 2025"
+      }
+    ]
+  },
+  {
+    "id": "tiktok-regular-news",
+    "category": "Tech & Internet",
+    "type": "bins",
+    "prompt": "In 2026, what share of U.S. adults said they regularly get news on TikTok?",
+    "bins": [
+      "Under 8%",
+      "8–14%",
+      "15–29%",
+      "30% or more"
+    ],
+    "answerBin": 2,
+    "answer": 20,
+    "unit": "%",
+    "explanation": "One in five U.S. adults (20%) regularly get news on TikTok, the same as 2025 but up from 3% in 2020. Among adults under 30 it is 39%; among those 65 and older, 4%.",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "1 in 5 Americans regularly get news on TikTok",
+      "url": "https://www.pewresearch.org/short-reads/2026/10/19/1-in-5-americans-regularly-get-news-on-tiktok/",
+      "published": "2026-10",
+      "fieldwork": "Aug 24–30, 2026"
+    },
+    "confidence": "high",
+    "caveat": ""
+  },
+  {
+    "id": "landline-at-home",
+    "category": "Tech & Internet",
+    "type": "bins",
+    "prompt": "In late 2025, what share of U.S. adults lived in a home that still had a landline phone?",
+    "bins": [
+      "Under 10%",
+      "10–29%",
+      "30–49%",
+      "50% or more"
+    ],
+    "answerBin": 1,
+    "answer": 19.6,
+    "unit": "%",
+    "explanation": "About 20% of U.S. adults live in a household with a landline (18.6% landline plus wireless, 1.0% landline only). 80.0% live in wireless-only households, up from 76.0% two years earlier.",
+    "source": {
+      "publisher": "CDC National Center for Health Statistics",
+      "title": "Wireless Substitution: Early Release of Estimates from the National Health Interview Survey, July–December 2025",
+      "url": "https://www.cdc.gov/nchs/data/nhis/earlyrelease/wireless202609.pdf",
+      "published": "2026-09",
+      "fieldwork": "Jul–Dec 2025"
+    },
+    "confidence": "high",
+    "caveat": "Household-level measure for adults; the 2025 sample was reduced because the federal shutdown paused fieldwork in October–November 2025.",
+    "reserve": true
+  },
+  {
+    "id": "facebook-young-adults",
+    "category": "Tech & Internet",
+    "type": "bins",
+    "prompt": "In 2026, what share of U.S. adults ages 18–29 said they use Facebook?",
+    "bins": [
+      "Under 25%",
+      "25–44%",
+      "45–64%",
+      "65% or more"
+    ],
+    "answerBin": 3,
+    "answer": 69,
+    "unit": "%",
+    "explanation": "69% of 18-to-29-year-olds say they use Facebook, about the same as adults overall (70%) and more than use TikTok (65%) or Snapchat (56%) in that age group. Only Instagram (79%) and YouTube (95%) reach more young adults.",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "Americans' Use of Social Media in 2026 (Social Media Fact Sheet)",
+      "url": "https://www.pewresearch.org/internet/fact-sheet/social-media/",
+      "published": "2026-10",
+      "fieldwork": "Jan 30 – Jun 18, 2026"
+    },
+    "confidence": "high",
+    "caveat": "'Ever use' includes light or occasional use (e.g., Marketplace, groups); it says nothing about how often."
+  }
+]

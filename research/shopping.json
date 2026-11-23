@@ -1,0 +1,228 @@
+[
+  {
+    "id": "fast-food-us-sales-rank",
+    "category": "Shopping, Food & Style",
+    "type": "rank",
+    "prompt": "Rank these fast-food chains by their 2025 U.S. sales (all restaurants combined), from highest to lowest.",
+    "rankLabel": "Highest U.S. sales → lowest U.S. sales",
+    "items": [
+      {
+        "label": "Chick-fil-A",
+        "value": 23.9,
+        "display": "$23.9B U.S. sales"
+      },
+      {
+        "label": "Taco Bell",
+        "value": 17.2,
+        "display": "$17.2B U.S. sales"
+      },
+      {
+        "label": "Burger King",
+        "value": 11.1,
+        "display": "$11.1B U.S. sales"
+      },
+      {
+        "label": "KFC",
+        "value": 4.7,
+        "display": "$4.7B U.S. sales"
+      }
+    ],
+    "unit": "$B",
+    "explanation": "Chick-fil-A sold about $23.9B in the U.S. in 2025, more than Burger King ($11.1B) and KFC ($4.7B) combined, despite having only about 3,300 restaurants and closing on Sundays. It is the No. 3 U.S. chain behind McDonald's ($55.1B) and Starbucks ($30.3B); Taco Bell is No. 4 at $17.2B.",
+    "source": {
+      "publisher": "QSR Magazine",
+      "title": "QSR 50 2026: Top 50 Fast-Food Chains, Ranked by Sales",
+      "url": "https://www.qsrmagazine.com/story/qsr-50-2026-top-50-fast-food-chains-ranked-by-sales/",
+      "published": "2026-08",
+      "fieldwork": "2025 U.S. systemwide sales"
+    },
+    "confidence": "high",
+    "caveat": "Chick-fil-A's figure is a QSR estimate (the company is private), as is Starbucks'; Taco Bell, Burger King and KFC reported theirs. U.S. sales only, so KFC's large international business is not counted."
+  },
+  {
+    "id": "clothing-brand-popularity-rank",
+    "category": "Shopping, Food & Style",
+    "type": "rank",
+    "prompt": "As of 2026, rank these clothing and footwear brands by the share of U.S. adults who have a positive opinion of them.",
+    "rankLabel": "Most liked → least liked",
+    "items": [
+      {
+        "label": "Levi's",
+        "value": 76,
+        "display": "76% positive"
+      },
+      {
+        "label": "Nike",
+        "value": 67,
+        "display": "67% positive"
+      },
+      {
+        "label": "Crocs",
+        "value": 54,
+        "display": "54% positive"
+      },
+      {
+        "label": "Shein",
+        "value": 36,
+        "display": "36% positive"
+      }
+    ],
+    "unit": "%",
+    "explanation": "Levi's is liked by 76% of U.S. adults, ahead of Nike at 67%. Crocs are liked by a majority (54%), and Shein by 36%, although 79% of adults have heard of Shein.",
+    "source": {
+      "publisher": "YouGov",
+      "title": "The most famous clothing & footwear brands (YouGov Ratings)",
+      "url": "https://yougov.com/en-us/ratings/clothing-footwear-brands?sortBy=fame",
+      "published": "2026-10",
+      "fieldwork": "Q3 2026"
+    },
+    "extraSources": [
+      {
+        "publisher": "YouGov",
+        "title": "Levi's popularity & fame",
+        "url": "https://yougov.com/en-us/topics/brand/Levis"
+      },
+      {
+        "publisher": "YouGov",
+        "title": "Nike popularity & fame",
+        "url": "https://yougov.com/en-us/topics/brand/Nike"
+      },
+      {
+        "publisher": "YouGov",
+        "title": "Crocs popularity & fame",
+        "url": "https://yougov.com/en-us/topics/brand/Crocs"
+      },
+      {
+        "publisher": "YouGov",
+        "title": "Shein popularity & fame",
+        "url": "https://yougov.com/en-us/topics/brand/Shein"
+      }
+    ],
+    "confidence": "medium",
+    "caveat": "YouGov Ratings 'popularity' is the share of all adults with a positive opinion (including people who don't know the brand). Ratings refresh quarterly, so values can shift a point or two."
+  },
+  {
+    "id": "ecommerce-share-of-retail",
+    "category": "Shopping, Food & Style",
+    "type": "bins",
+    "prompt": "In the third quarter of 2026, what share of all U.S. retail sales (in dollars) happened online?",
+    "bins": [
+      "Under 12%",
+      "12–24%",
+      "25–39%",
+      "40% or more"
+    ],
+    "answerBin": 1,
+    "answer": 17.9,
+    "unit": "%",
+    "explanation": "E-commerce was 17.9% of total U.S. retail sales in the third quarter of 2026 ($347.3B of $1,941.9B, seasonally adjusted). More than four of every five retail dollars were still spent offline.",
+    "source": {
+      "publisher": "U.S. Census Bureau",
+      "title": "Quarterly Retail E-Commerce Sales, 3rd Quarter 2026",
+      "url": "https://www.census.gov/retail/ecommerce.html",
+      "published": "2026-11",
+      "fieldwork": "Q3 2026"
+    },
+    "confidence": "high",
+    "caveat": "Seasonally adjusted (17.2% unadjusted). Total retail includes cars, gasoline and groceries, which are mostly bought in person; excludes restaurants and services."
+  },
+  {
+    "id": "temu-ever-used",
+    "category": "Shopping, Food & Style",
+    "type": "bins",
+    "prompt": "In January 2025, what share of U.S. adults had ever used Temu, the low-price shopping app?",
+    "bins": [
+      "Under 15%",
+      "15–29%",
+      "30–59%",
+      "60% or more"
+    ],
+    "answerBin": 2,
+    "answer": 44,
+    "unit": "%",
+    "explanation": "As of January 2025, 44% of U.S. adults had used Temu and 31% had used Shein, according to Morning Consult. Temu only launched in the U.S. in late 2022.",
+    "source": {
+      "publisher": "Morning Consult",
+      "title": "Low-cost retailers Temu and Shein (analysis)",
+      "url": "https://intel.morningconsult.com/mc-content/analysis/low-cost-retailers-temu-shein",
+      "published": "2025-03",
+      "fieldwork": "January 2025"
+    },
+    "confidence": "medium",
+    "caveat": "'Used' counts any frequency of use. The reading predates the 2025 tariff and de minimis changes; no newer all-adult reading from a comparable pollster was found (a 2026 Omnisend consumer survey reported 58% shopping on Temu in the past year, but its sample is not all adults)."
+  },
+  {
+    "id": "labubu-heard-of",
+    "category": "Shopping, Food & Style",
+    "type": "percent",
+    "prompt": "In August 2025, what percent of U.S. adults said they had heard at least a little about the toy Labubu?",
+    "answer": 47,
+    "unit": "%",
+    "explanation": "47% had heard 'a lot' (15%) or 'a little' (32%) about Labubu; 53% had heard nothing at all. Awareness ran from 74% of adults under 30 to 26% of those 65 and older.",
+    "source": {
+      "publisher": "YouGov",
+      "title": "YouGov Survey: Labubu (toplines and crosstabs)",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Labubu_poll_results_x0DEb48.pdf",
+      "published": "2025-08",
+      "fieldwork": "August 14–16, 2025; 1,128 U.S. adult citizens"
+    },
+    "confidence": "high",
+    "caveat": "Sample is U.S. adult citizens; margin of error ±3.8 points."
+  },
+  {
+    "id": "bnpl-past-year-use",
+    "category": "Shopping, Food & Style",
+    "type": "bins",
+    "prompt": "In 2025, what share of U.S. adults used a 'buy now, pay later' service (such as Klarna, Affirm or Afterpay) in the past 12 months?",
+    "bins": [
+      "Under 10%",
+      "10–24%",
+      "25–39%",
+      "40% or more"
+    ],
+    "answerBin": 1,
+    "answer": 16,
+    "unit": "%",
+    "explanation": "16% of adults used buy now, pay later in the prior 12 months, according to the Federal Reserve's 2025 household survey, up from 10% in 2021. About a quarter of those users (26%) paid late at least once.",
+    "source": {
+      "publisher": "Federal Reserve Board",
+      "title": "Economic Well-Being of U.S. Households in 2025: Credit (SHED)",
+      "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "published": "2026-05",
+      "fieldwork": "October 2025"
+    },
+    "confidence": "high",
+    "caveat": "Self-reported use in the prior 12 months. Industry polls that ask 'ever used' report much higher figures."
+  },
+  {
+    "id": "coffee-past-day",
+    "category": "Shopping, Food & Style",
+    "type": "percent",
+    "prompt": "In 2026, what percent of U.S. adults had drunk coffee in the past day?",
+    "answer": 66,
+    "unit": "%",
+    "explanation": "66% of American adults had coffee in the past day in the National Coffee Association's Spring 2026 survey, ahead of bottled water (64%), tea (47%) and soda (46%). The association's Fall 2026 report found the same 66%.",
+    "source": {
+      "publisher": "National Coffee Association",
+      "title": "Coffee Tops Americans' Beverage Choices (Spring 2026 National Coffee Data Trends)",
+      "url": "https://www.ncausa.org/Newsroom/Coffee-Tops-Americans-Beverage-Choices",
+      "published": "2026-04",
+      "fieldwork": "January 5–20, 2026; 1,850 U.S. adults"
+    },
+    "extraSources": [
+      {
+        "publisher": "Daily Coffee News",
+        "title": "Two-Thirds of Americans Drank Coffee Yesterday, NCA Report Finds",
+        "url": "https://dailycoffeenews.com/2026/04/14/two-thirds-of-americans-drank-coffee-yesterday-nca-report-finds/"
+      },
+      {
+        "publisher": "National Coffee Association",
+        "title": "NCA Newsroom (Fall 2026 National Coffee Data Trends release, Sept. 15, 2026)",
+        "url": "https://www.ncausa.org/Newsroom"
+      }
+    ],
+    "confidence": "medium",
+    "caveat": "Industry trade-group survey of adults who drank something other than tap water the previous day, so the true all-adult share is very slightly lower. The comparison figures for other drinks are as reported by Daily Coffee News.",
+    "reserve": true
+  }
+]

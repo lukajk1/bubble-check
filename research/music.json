@@ -1,0 +1,257 @@
+[
+  {
+    "id": "music-fame-kesha-kendrick-drake-bruno",
+    "category": "Music",
+    "type": "rank",
+    "prompt": "As of 2026, order these artists by how famous they are in the U.S. (share of Americans who have heard of them).",
+    "rankLabel": "Most famous → least famous",
+    "items": [
+      {
+        "label": "Bruno Mars",
+        "value": 94,
+        "display": "94% have heard of"
+      },
+      {
+        "label": "Drake",
+        "value": 90,
+        "display": "90% have heard of"
+      },
+      {
+        "label": "Kendrick Lamar",
+        "value": 83,
+        "display": "83% have heard of"
+      },
+      {
+        "label": "Kesha",
+        "value": 78,
+        "display": "78% have heard of"
+      }
+    ],
+    "unit": "%",
+    "explanation": "YouGov's fame ratings: Bruno Mars 94%, Drake 90%, Kendrick Lamar 83%, Kesha 78%. Bruno Mars is also much the best liked of the four (64% positive, against 49% for Kendrick, 45% for Kesha and 41% for Drake).",
+    "source": {
+      "publisher": "YouGov",
+      "title": "Bruno Mars – YouGov Ratings (US)",
+      "url": "https://yougov.com/en-us/topics/public_figure/Bruno_Mars",
+      "published": "accessed 2026-11"
+    },
+    "extraSources": [
+      {
+        "publisher": "YouGov",
+        "title": "Drake – YouGov Ratings (US)",
+        "url": "https://yougov.com/en-us/topics/public_figure/Drake",
+        "published": "accessed 2026-11"
+      },
+      {
+        "publisher": "YouGov",
+        "title": "Kendrick Lamar – YouGov Ratings (US)",
+        "url": "https://yougov.com/en-us/topics/public_figure/Kendrick_Lamar",
+        "published": "accessed 2026-11"
+      },
+      {
+        "publisher": "YouGov",
+        "title": "Kesha – YouGov Ratings (US)",
+        "url": "https://yougov.com/en-us/topics/public_figure/Kesha",
+        "published": "accessed 2026-11"
+      }
+    ],
+    "confidence": "medium",
+    "caveat": "Fame is YouGov's measure: the share of U.S. adults who say they have heard of the artist. The ratings update over time."
+  },
+  {
+    "id": "music-female-singers-popularity",
+    "category": "Music",
+    "type": "rank",
+    "prompt": "As of 2026, order these four female singers by popularity in the U.S. (share of Americans with a positive opinion of them).",
+    "rankLabel": "Most popular → least popular",
+    "items": [
+      {
+        "label": "Dolly Parton",
+        "value": 80,
+        "display": "80% positive opinion"
+      },
+      {
+        "label": "Lady Gaga",
+        "value": 64,
+        "display": "64% positive opinion"
+      },
+      {
+        "label": "Taylor Swift",
+        "value": 53,
+        "display": "53% positive opinion"
+      },
+      {
+        "label": "Sabrina Carpenter",
+        "value": 47,
+        "display": "47% positive opinion"
+      }
+    ],
+    "unit": "%",
+    "explanation": "Dolly Parton is liked by 80% of Americans and disliked by only 3%. Taylor Swift is the best known (98% have heard of her) but only 53% view her positively, with 24% negative. Lady Gaga sits at 64% and Sabrina Carpenter at 47% (79% have heard of her).",
+    "source": {
+      "publisher": "YouGov",
+      "title": "Dolly Parton – YouGov Ratings (US)",
+      "url": "https://yougov.com/en-us/topics/public_figure/Dolly_Parton",
+      "published": "accessed 2026-11"
+    },
+    "extraSources": [
+      {
+        "publisher": "YouGov",
+        "title": "Lady Gaga – YouGov Ratings (US)",
+        "url": "https://yougov.com/en-us/topics/public_figure/Lady_Gaga",
+        "published": "accessed 2026-11"
+      },
+      {
+        "publisher": "YouGov",
+        "title": "Taylor Swift – YouGov Ratings (US)",
+        "url": "https://yougov.com/en-us/topics/public_figure/Taylor_Swift",
+        "published": "accessed 2026-11"
+      },
+      {
+        "publisher": "YouGov",
+        "title": "Sabrina Carpenter – YouGov Ratings (US)",
+        "url": "https://yougov.com/en-us/topics/public_figure/Sabrina_Carpenter",
+        "published": "accessed 2026-11"
+      }
+    ],
+    "confidence": "medium",
+    "caveat": "Popularity is YouGov's share of all U.S. adults with a positive opinion, not streams or sales. It was chosen over Spotify monthly listeners because that figure is global and skews young and online; by streams, Taylor Swift would rank first."
+  },
+  {
+    "id": "music-kpop-interest",
+    "category": "Music",
+    "type": "percent",
+    "prompt": "In 2025, what percentage of U.S. adults picked Korean pop music (K-pop) when asked which parts of South Korean culture they are interested in?",
+    "answer": 12,
+    "unit": "%",
+    "explanation": "12% of U.S. adults picked Korean pop music when asked which parts of South Korean culture they are interested in. Korean food was far ahead at 42%, and 45% chose none of the options.",
+    "source": {
+      "publisher": "Korea Economic Institute of America / YouGov",
+      "title": "KEI 2025 Annual Survey (Americans' attitudes on U.S.–Korea relations)",
+      "url": "https://keia.org/wp-content/uploads/2025/10/Annual-Survey-KEI-2025_v1.pdf",
+      "published": "2025-10",
+      "fieldwork": "September 2–12, 2025; 1,181 U.S. adults"
+    },
+    "confidence": "medium",
+    "caveat": "No reputable national survey of weekly K-pop listening exists, so this measures stated interest (a select-all-that-apply question), not listening frequency."
+  },
+  {
+    "id": "music-genre-streams-rank",
+    "category": "Music",
+    "type": "rank",
+    "prompt": "Order these genres by how much they were streamed in the U.S. in 2025 (on-demand audio streams).",
+    "rankLabel": "Most streamed → least streamed",
+    "items": [
+      {
+        "label": "R&B / hip-hop",
+        "value": 349.9,
+        "display": "349.9 billion streams"
+      },
+      {
+        "label": "Rock",
+        "value": 260.5,
+        "display": "260.5 billion streams"
+      },
+      {
+        "label": "Pop",
+        "value": 167.2,
+        "display": "167.2 billion streams"
+      },
+      {
+        "label": "Country",
+        "value": 122.5,
+        "display": "122.5 billion streams"
+      }
+    ],
+    "unit": "billion streams",
+    "explanation": "R&B/hip-hop led with 349.9 billion U.S. on-demand audio streams, about a quarter of the 1.4 trillion total. Rock was second at 260.5 billion, well ahead of pop (167.2 billion) and country (122.5 billion). Latin was just behind country at 120.9 billion.",
+    "source": {
+      "publisher": "Luminate (reported by the Associated Press)",
+      "title": "Music streams hit 5 trillion in 2025. Christian, rock and Latin lead growth in the US",
+      "url": "https://www.clickondetroit.com/entertainment/2026/01/14/music-streams-hit-5-trillion-in-2025-christian-rock-and-latin-lead-growth-in-the-us/",
+      "published": "2026-01",
+      "fieldwork": "Calendar year 2025"
+    },
+    "extraSources": [
+      {
+        "publisher": "Luminate",
+        "title": "2025 Year-End Music Report",
+        "url": "https://luminatedata.com/reports/yearend-music-industry-report-2025",
+        "published": "2026-01",
+        "fieldwork": "Calendar year 2025"
+      }
+    ],
+    "confidence": "high",
+    "caveat": "Genre is Luminate's classification of each track, and rock includes a large amount of older catalog music."
+  },
+  {
+    "id": "music-vinyl-vs-cd",
+    "category": "Music",
+    "type": "bins",
+    "prompt": "In 2025, for every 100 CDs shipped in the U.S., about how many vinyl records were shipped?",
+    "bins": [
+      "Fewer than 50",
+      "50–99",
+      "100–199",
+      "200 or more"
+    ],
+    "answerBin": 2,
+    "answer": 159,
+    "unit": "per 100 CDs",
+    "explanation": "Vinyl outsold CDs: 46.8 million vinyl records against 29.5 million CDs, or about 159 vinyl records per 100 CDs. Vinyl units rose 7.9% while CDs fell 11.6%, and vinyl revenue passed $1 billion.",
+    "source": {
+      "publisher": "RIAA",
+      "title": "Year-End 2025 RIAA Revenue Statistics",
+      "url": "https://www.riaa.com/wp-content/uploads/2026/03/RIAA-Year-End-Revenue-2025.pdf",
+      "published": "2026-03",
+      "fieldwork": "Calendar year 2025"
+    },
+    "confidence": "high",
+    "caveat": "RIAA counts units shipped by labels, not retail purchases. The 159 figure is calculated from the two unit counts."
+  },
+  {
+    "id": "music-spotify-monthly-reach",
+    "category": "Music",
+    "type": "bins",
+    "prompt": "In early 2026, what share of Americans aged 12 and older had listened to Spotify in the past month?",
+    "bins": [
+      "Under 25%",
+      "25–44%",
+      "45–64%",
+      "65% or more"
+    ],
+    "answerBin": 1,
+    "answer": 36,
+    "unit": "%",
+    "explanation": "36% of Americans 12+ used Spotify in the past month, the most of any online audio brand. YouTube Music was close at 34%, then Pandora at 21%, Amazon Music at 19% and Apple Music at 17%.",
+    "source": {
+      "publisher": "Edison Research",
+      "title": "The Infinite Dial 2026",
+      "url": "https://www.edisonresearch.com/wp-content/uploads/2026/03/The-Infinite-Dial-2026-Presentation.pdf",
+      "published": "2026-03",
+      "fieldwork": "January 2026; 2,050 people aged 12+"
+    },
+    "confidence": "high",
+    "caveat": "The base is everyone aged 12 and older, not only adults or only people who stream music.",
+    "reserve": true
+  },
+  {
+    "id": "music-radio-listening",
+    "category": "Music",
+    "type": "percent",
+    "prompt": "In 2026, what percentage of U.S. adults said radio is one of the ways they listen to music?",
+    "answer": 48,
+    "unit": "%",
+    "explanation": "48% of U.S. adults say radio is one of the ways they listen to music, second only to streaming at 73%. CDs and downloaded files are each at 24%, vinyl records at 11% and cassettes at 4%.",
+    "source": {
+      "publisher": "YouGov",
+      "title": "YouGov Survey: Music (toplines and crosstabs)",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Music_poll_results.pdf",
+      "published": "2026-01",
+      "fieldwork": "January 15–17, 2026; 1,119 U.S. adult citizens"
+    },
+    "confidence": "high",
+    "caveat": "Select-all-that-apply question about formats people use, with no time frame or frequency attached.",
+    "reserve": true
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "id": "atus-leisure-rank",
+    "category": "Lifestyle & Time",
+    "type": "rank",
+    "prompt": "In 2025, how much time did Americans (age 15+) spend on these leisure activities on an average day? Rank them from most time to least.",
+    "rankLabel": "Most time → least time",
+    "items": [
+      {
+        "label": "Watching TV",
+        "value": 2.61,
+        "display": "2.61 hours/day (about 2 h 37 min)"
+      },
+      {
+        "label": "Playing games and computer use for leisure",
+        "value": 0.62,
+        "display": "0.62 hours/day (about 37 min)"
+      },
+      {
+        "label": "Sports, exercise and recreation",
+        "value": 0.34,
+        "display": "0.34 hours/day (about 20 min)"
+      },
+      {
+        "label": "Reading for personal interest",
+        "value": 0.27,
+        "display": "0.27 hours/day (about 16 min)"
+      }
+    ],
+    "explanation": "TV still takes about half of all leisure time: 2.6 of 5.2 leisure hours a day in 2025. Games and leisure computer use average 37 minutes, exercise about 20 minutes and reading about 16.",
+    "source": {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "American Time Use Survey — 2025 Results, Table 11A: Time spent in leisure and sports activities",
+      "url": "https://www.bls.gov/news.release/atus.t11A.htm",
+      "published": "2026-06",
+      "fieldwork": "2025"
+    },
+    "extraSources": [
+      {
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "title": "American Time Use Survey Summary — 2025 Results",
+        "url": "https://www.bls.gov/news.release/atus.nr0.htm",
+        "published": "2026-06",
+        "fieldwork": "2025"
+      }
+    ],
+    "confidence": "high",
+    "caveat": "Averages cover everyone age 15+, including people who did not do the activity that day; primary activity only. ATUS collection was suspended Oct 1–Nov 12, 2025 (government shutdown), which BLS says may have affected 2025 estimates."
+  },
+  {
+    "id": "gallup-drink-alcohol",
+    "category": "Lifestyle & Time",
+    "type": "percent",
+    "prompt": "In 2026, what percentage of U.S. adults said they ever drink alcoholic beverages (rather than being total abstainers)?",
+    "answer": 54,
+    "unit": "%",
+    "explanation": "54% in July 2026, tied with 2025 for the lowest reading in Gallup's trend going back to 1939. It was 62% in 2023 and 58% in 2024.",
+    "source": {
+      "publisher": "Gallup",
+      "title": "Americans' Drinking Remains at Record Low",
+      "url": "https://news.gallup.com/poll/713534/americans-drinking-remains-record-low.aspx",
+      "published": "2026-08",
+      "fieldwork": "2026-07"
+    },
+    "confidence": "high",
+    "caveat": "Self-reported; telephone survey of 1,200 adults, July 1–19, 2026."
+  },
+  {
+    "id": "gallup-vegetarian",
+    "category": "Lifestyle & Time",
+    "type": "bins",
+    "prompt": "In 2023 (Gallup's latest reading), what share of U.S. adults said they are vegetarian?",
+    "bins": [
+      "Under 2%",
+      "2–7%",
+      "8–14%",
+      "15% or more"
+    ],
+    "answerBin": 1,
+    "answer": 4,
+    "unit": "%",
+    "explanation": "4% of U.S. adults identify as vegetarian, and 1% as vegan. Gallup found about the same in 2012 and 2018, and 6% in 1999 and 2001.",
+    "source": {
+      "publisher": "Gallup",
+      "title": "In U.S., 4% Identify as Vegetarian, 1% as Vegan",
+      "url": "https://news.gallup.com/poll/510038/identify-vegetarian-vegan.aspx",
+      "published": "2023-08",
+      "fieldwork": "2023-07"
+    },
+    "confidence": "high",
+    "caveat": "Self-identification, July 3–27, 2023; Gallup's most recent reading."
+  },
+  {
+    "id": "gallup-gun-in-household",
+    "category": "Lifestyle & Time",
+    "type": "percent",
+    "prompt": "In October 2026, what percentage of U.S. adults said there is a gun in their household?",
+    "answer": 43,
+    "unit": "%",
+    "explanation": "43% report a gun in their household: 31% personally own one and 12% say another household member does. The figure has been steady; the average since 2000 is also 43%.",
+    "source": {
+      "publisher": "Gallup",
+      "title": "Majorities Favor Stricter Gun Laws, Assault Rifle Ban",
+      "url": "https://news.gallup.com/poll/716537/majorities-favor-stricter-gun-laws-assault-rifle-ban.aspx",
+      "published": "2026-11",
+      "fieldwork": "2026-10"
+    },
+    "confidence": "high",
+    "caveat": "Self-reported, Oct 1–19, 2026. Share of adults, not of households."
+  },
+  {
+    "id": "young-adults-living-with-parents",
+    "category": "Lifestyle & Time",
+    "type": "bins",
+    "prompt": "As of 2023 (latest Census data), what share of Americans ages 25 to 34 lived in a parent's home?",
+    "bins": [
+      "Under 10%",
+      "10–24%",
+      "25–39%",
+      "40% or more"
+    ],
+    "answerBin": 1,
+    "answer": 18,
+    "unit": "%",
+    "explanation": "18% of 25- to 34-year-olds lived in a parent's home in 2023 (20% of young men, 15% of young women). The share rose from 2000 to 2017 and has slipped a little since.",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "The shares of young adults living with parents vary widely across the U.S.",
+      "url": "https://www.pewresearch.org/short-reads/2025/04/17/the-shares-of-young-adults-living-with-parents-vary-widely-across-the-us/",
+      "published": "2025-04",
+      "fieldwork": "2023"
+    },
+    "confidence": "high",
+    "caveat": "Pew analysis of Census Bureau American Community Survey data. The age range matters: figures that include 18- to 24-year-olds are much higher."
+  },
+  {
+    "id": "cdc-short-sleep",
+    "category": "Lifestyle & Time",
+    "type": "bins",
+    "prompt": "In 2024, what share of U.S. adults got less than 7 hours of sleep in a typical 24-hour period?",
+    "bins": [
+      "Under 15%",
+      "15–24%",
+      "25–39%",
+      "40% or more"
+    ],
+    "answerBin": 2,
+    "answer": 30.5,
+    "unit": "%",
+    "explanation": "30.5% of adults averaged under 7 hours of sleep in 2024. In the same survey, 54.8% said they woke up feeling well-rested most days or every day.",
+    "source": {
+      "publisher": "CDC National Center for Health Statistics",
+      "title": "Short Sleep Duration and Sleep Difficulties Among Adults: United States, 2024 (NCHS Data Brief No. 559)",
+      "url": "https://www.cdc.gov/nchs/products/databriefs/db559.htm",
+      "published": "2026-04",
+      "fieldwork": "2024"
+    },
+    "confidence": "high",
+    "caveat": "Self-reported average sleep from the National Health Interview Survey; 7 hours is the recommended minimum for adults."
+  },
+  {
+    "id": "pew-never-left-us",
+    "category": "Lifestyle & Time",
+    "type": "percent",
+    "prompt": "In 2023, what percentage of U.S. adults said they had never traveled outside the United States?",
+    "answer": 23,
+    "unit": "%",
+    "explanation": "23% have never traveled internationally. About half have been to one to four other countries, and 26% have been to five or more.",
+    "source": {
+      "publisher": "Pew Research Center",
+      "title": "Americans who have traveled internationally stand out in their views and knowledge of foreign affairs",
+      "url": "https://www.pewresearch.org/short-reads/2023/12/06/americans-who-have-traveled-internationally-stand-out-in-their-views-and-knowledge-of-foreign-affairs/",
+      "published": "2023-12",
+      "fieldwork": "March 20–26, 2023; 3,576 U.S. adults"
+    },
+    "confidence": "high",
+    "caveat": "Self-reported, from Pew's March 2023 American Trends Panel survey; the most recent Pew reading found.",
+    "reserve": true
+  }
+]

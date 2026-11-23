@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "bubble-check",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4810", "--bind", "127.0.0.1"],
+      "port": 4810
+    }
+  ]
+}
